@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/normalize.css" />
+
+    <link rel="stylesheet" href="style/slick.css" />
+
+    <link rel="stylesheet" href="style/style.css" />
+
+    <title>test</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <div class="header__block">
+      <header class="header__menu">
+        <div class="logo"></div>
+        <ul class="navigation">
+          <li class="navigation__item">HOME</li>
+          <li class="navigation__item">
+            WOMEN
+            <ul>
+              <li>Skirts</li>
+              <li>Dresses</li>
+              <li>Shoes</li>
+              <li>Hats</li>
+            </ul>
+          </li>
+          <li class="navigation__item">
+            MEN
+            <ul>
+              <li>Jackets</li>
+              <li>Pants</li>
+              <li>Shoes</li>
+              <li>Hats</li>
+              <li>Shirts</li>
+            </ul>
+          </li>
+          <li class="navigation__item">
+            SHOES
+            <ul>
+              <li>Sneakers</li>
+              <li>Sandals</li>
+              <li>Boots</li>
+            </ul>
+          </li>
+          <li class="navigation__item">PAGES</li>
+          <li class="navigation__item">BLOG</li>
+        </ul>
+        <div class="shop">
+          <i class="fa fa-2x fa-shopping-cart" aria-hidden="true"></i>
+        </div>
+      </header>
+    </div>
+    <section class="header" style="background-image: url('img/bg.jpg')">
+      <div class="wrapper">
+        <span>New Arrivals</span>
+        <h3>denim jackets</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+          sus-pendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+          lacus vel facilisis.
+        </p>
+        <div class="header-btns">
+          <button>discover</button>
+          <button>add to cart</button>
+        </div>
+        <div class="offer-card">
+          <p>from</p>
+          <h3>$29</h3>
+          <span>shop now</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal-wrapper hide hide-modal">
+      <div class="modal">
+        <div class="modal__dialog">
+          <div id="closeModal">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+          <form action="#" id="form" class="form__body">
+            <h2>ORDER FORM</h2>
+            <div class="form__item">
+              <label for="formName" class="form__label"></label>
+              <input
+                id="formName"
+                placeholder="Name"
+                type="text"
+                name="name"
+                class="form__input"
+              />
+            </div>
+            <div class="form__item">
+              <label for="formEmail" class="form__label"></label>
+              <input
+                id="formEmail"
+                placeholder="E-mail"
+                type="text"
+                name="email"
+                class="form__input"
+              />
+            </div>
+            <div class="form__item">
+              <label for="formTel" class="form__label"></label>
+              <input
+                id="formTel"
+                placeholder="Tel.namber"
+                type="text"
+                name="tel"
+                class="form__input"
+              />
+            </div>
+            <div class="form__item">
+              <div class="options">
+                <div class="options__item">
+                  <input
+                    id="formCallBack"
+                    type="radio"
+                    value="true"
+                    name="callBack"
+                    class="option__input"
+                  />
+                  <label for="formCallBack" class="option__label"
+                    >Call back</label
+                  >
+                </div>
+                <div class="options__item">
+                  <input
+                    id="formDoNotCallBack"
+                    checked
+                    type="radio"
+                    value="false"
+                    name="callBack"
+                    class="option__input"
+                  />
+                  <label for="formDoNotCallBack" class="option__label"
+                    >Do not call back</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="form__item">
+              <label for="formMessage" class="form__label">Message</label>
+              <textarea
+                name="message"
+                id="formMessage"
+                cols="40"
+                rows="5"
+                class="form__input"
+              ></textarea>
+            </div>
+            <div class="form__item">
+              <div class="checkbox">
+                <input
+                  id="formAgreement"
+                  type="checkbox"
+                  name="agreement"
+                  class="checkbox__input"
+                />
+                <label for="formAgreement" class="checkbox__label"
+                  ><span>
+                    I agree to the processing of my personal data</span
+                  ></label
+                >
+              </div>
+            </div>
+            <button type="submit" class="form__btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--  Slider Product  -->
+    <section class="latest-product">
+      <h2>LATEST PRODUCTS</h2>
+      <div class="slider">
+        <div class="slider__wrapper"></div>
+      </div>
+    </section>
+    <!--  BROWSE TOP SELLING PRODUCTS -->
+    <section class="top-products">
+      <h2>BROWSE TOP SELLING PRODUCTS</h2>
+      <div class="filter-wrapper">
+        <ul class="filter">
+          <li data-f="all" class="text-all">ALL</li>
+          <li data-f="dresses" class="text-dresses">DRESSES</li>
+          <li data-f="jeans" class="text-jeans">JEANS</li>
+          <li data-f="tops" class="text-tops">TOPS</li>
+        </ul>
+      </div>
+      <div class="top-products__wrapper"></div>
+
+      <!--  products more  -->
+
+      <div class="load-more">
+        <button class="load-more__btn">load more</button>
+        <button class="hide__btn">Hide</button>
+      </div>
+
+      <!-- banner -->
+    </section>
+    <section class="banner">
+      <div class="banner-bg">
+        <span>NEW ARRIVALS</span>
+        <h3>STRIPED SHIRTS</h3>
+        <button class="shop-now">shop now</button>
+        <div class="tag-new">new</div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="logo-footer">
+        <div></div>
+      </div>
+      <div class="row">
+        <div class="about">
+          <h2>about</h2>
+          <p>
+            Donec vitae purus nunc. Morbi faucibus erat sit amet congue mattis.
+            Nullam frin-gilla faucibus urna, id dapibus erat iaculis ut. Integer
+            ac sem.
+          </p>
+          <img src="img/cards.png" class="payments" alt="#" />
+        </div>
+        <div class="question">
+          <h2>question</h2>
+          <ul class="question-list">
+            <li>About Us</li>
+            <li>Track Orders</li>
+            <li>Returns</li>
+            <li>Jobs</li>
+            <li>Shping</li>
+            <li>Blog</li>
+            <li>Partners</li>
+            <li>Blogs</li>
+            <li>Support</li>
+            <li>Press</li>
+          </ul>
+        </div>
+        <div class="blog">
+          <h2>Blog</h2>
+          <div class="blog__item">
+            <div
+              class="blog__item__img"
+              style="background-image: url(img/blog-thumbs/1.jpg)"
+            ></div>
+            <div class="blog__item__info">
+              <h3>TRENDS THIS YEAR</h3>
+              <p>Oct 21, 2018</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="blog__item">
+            <div
+              class="blog__item__img"
+              style="background-image: url(img/blog-thumbs/2.jpg)"
+            ></div>
+            <div class="blog__item__info">
+              <h3>WHAT SHOES TO WEAR</h3>
+              <p>Oct 21, 2018</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="contacts">
+          <h2>Contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts__item">
+              <span>C.</span>
+              <p>Your Company Ltd</p>
+            </li>
+            <li class="contacts__item">
+              <span>B.</span>
+              <p>1481 Creekside Lane Avila Beach, CA 93424, P.O. BOX 68</p>
+            </li>
+            <li class="contacts__item">
+              <span>E.</span>
+              <p>+53 345 7953 32453</p>
+            </li>
+            <li class="contacts__item">
+              <span>T.</span>
+              <p>office@youremail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="social-links-wrapper">
+        <div class="social-links__container">
+          <div class="social-links">
+            <a href="#"
+              ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+              ><span>INSTAGRAM</span></a
+            >
+            <a href="#"
+              ><i
+                class="fa fa-google-plus-official fa-2x"
+                aria-hidden="true"
+              ></i
+              ><span>G+PLUS</span></a
+            >
+            <a href="#"
+              ><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i
+              ><span>PINTEREST</span></a
+            >
+            <a href="#">
+              <i class="fa fa-facebook fa-2x" aria-hidden="true"></i
+              ><span>FACEBOOK</span></a
+            >
+            <a href="#">
+              <i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+              ><span>TWITTER</span></a
+            >
+            <a href="#">
+              <i class="fa fa-youtube fa-2x" aria-hidden="true"></i
+              ><span>YOUTUBE</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/slick.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,335 @@
+{
+  "cards": [
+    {
+      "src": "img/latest-product/1.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, dresses"
+    },
+    {
+      "src": "img/latest-product/2.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, tops"
+    },
+    {
+      "src": "img/latest-product/3.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, jeans"
+    },
+    {
+      "src": "img/latest-product/4.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, dresses"
+    },
+    {
+      "src": "img/latest-product/5.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, tops"
+    },
+    {
+      "src": "img/latest-product/6.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, dresses"
+    },
+    {
+      "src": "img/latest-product/7.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, dresses"
+    },
+    {
+      "src": "img/latest-product/8.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, jeans"
+    },
+    {
+      "src": "img/latest-product/9.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, tops, top-more"
+    },
+    {
+      "src": "img/latest-product/10.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, jeans, top-more"
+    },
+    {
+      "src": "img/latest-product/11.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, tops, top-more"
+    },
+    {
+      "src": "img/latest-product/12.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".top-products__wrapper",
+      "classes": "box, jeans, top-more"
+    },
+    {
+      "src": "img/latest-product/1.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".slider__wrapper",
+      "classes": "slide-item"
+    },
+    {
+      "src": "img/latest-product/2.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".slider__wrapper",
+      "classes": "slide-item"
+    },
+    {
+      "src": "img/latest-product/3.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".slider__wrapper",
+      "classes": "slide-item"
+    },
+    {
+      "src": "img/latest-product/4.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".slider__wrapper",
+      "classes": "slide-item"
+    },
+    {
+      "src": "img/latest-product/5.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".slider__wrapper",
+      "classes": "slide-item"
+    },
+    {
+      "src": "img/latest-product/6.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".slider__wrapper",
+      "classes": "slide-item"
+    },
+    {
+      "src": "img/latest-product/7.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".slider__wrapper",
+      "classes": "slide-item"
+    },
+    {
+      "src": "img/latest-product/8.jpg",
+      "title": "Flamboyant Pink Top",
+      "price": 30,
+      "parentSelector": ".slider__wrapper",
+      "classes": "slide-item"
+    }
+  ],
+  "requests": [
+    {
+      "name": "dfs",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 3
+    },
+    {
+      "name": "Александр",
+      "phone": "+380 (66) 632-63-80",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 18
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 20
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 21
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 22
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 23
+    },
+    {
+      "name": "",
+      "email": "",
+      "tel": "",
+      "callBack": "false",
+      "message": "",
+      "id": 24
+    }
+  ]
+}
