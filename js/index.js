@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
 function active() {
   tns({
     container: ".slider__wrapper",
-    items: 4,
+    items: 3,
     slideBy: 1,
     speed: 500,
     autoplay: true,
@@ -25,6 +25,11 @@ function active() {
     autoplayText: ["▶", "❚❚"],
     swipeAngle: false,
     gutter: 30,
+    responsive: {
+      960: {
+        items: 4,
+      },
+    },
   });
 
   filters(".box", ".load-more__btn", ".hide__btn", ".filter-wrapper");

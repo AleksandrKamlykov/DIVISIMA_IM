@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", function () {
 function active() {
   (0,_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__.tns)({
     container: ".slider__wrapper",
-    items: 4,
+    items: 3,
     slideBy: 1,
     speed: 500,
     autoplay: true,
@@ -41,7 +41,12 @@ function active() {
     autoplayTimeout: 2500,
     autoplayText: ["▶", "❚❚"],
     swipeAngle: false,
-    gutter: 30
+    gutter: 30,
+    responsive: {
+      960: {
+        items: 4
+      }
+    }
   });
   (0,_modules_filter_js__WEBPACK_IMPORTED_MODULE_1__.default)(".box", ".load-more__btn", ".hide__btn", ".filter-wrapper");
   (0,_modules_loadBTN__WEBPACK_IMPORTED_MODULE_2__.default)(".top-more", ".load-more__btn", ".hide__btn");
