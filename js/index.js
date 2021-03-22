@@ -1,4 +1,5 @@
-import slider from "./modules/slider.js";
+import { tns } from "../node_modules/tiny-slider/src/tiny-slider";
+
 import filters from "./modules/filter.js";
 import loadBTN from "./modules/loadBTN";
 import cards from "./modules/cards.js";
@@ -13,7 +14,19 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 function active() {
-  slider(".slider__wrapper");
+  tns({
+    container: ".slider__wrapper",
+    items: 4,
+    slideBy: 1,
+    speed: 500,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 2500,
+    autoplayText: ["▶", "❚❚"],
+    swipeAngle: false,
+    gutter: 30,
+  });
+
   filters(".box", ".load-more__btn", ".hide__btn", ".filter-wrapper");
   loadBTN(".top-more", ".load-more__btn", ".hide__btn");
 }
