@@ -5,7 +5,7 @@ function form(formID, modalD, modalE) {
   const modal = document.querySelector(modalE);
   const forms = document.getElementById(formID);
   const message = {
-    loading: "img/spinner.svg",
+    loading: "../img/spinner.svg",
     success: "Спасибо! Ваш заказ принят",
     failure: "Что-то пошло не так...",
   };
@@ -61,6 +61,13 @@ function form(formID, modalD, modalE) {
     modal.classList.remove("hide");
     modal.classList.remove("hide-modal");
     document.body.style.overflow = "hidden";
+  }
+  function closeModal(modalE) {
+    const modal = document.querySelector(modalE);
+    modal.classList.add("hide-modal");
+    modal.classList.remove("show");
+    // Либо вариант с toggle - но тогда назначить класс в верстке
+    document.body.style.overflow = "";
   }
 
   function showThanksModal(message, modalD) {

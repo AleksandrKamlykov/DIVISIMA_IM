@@ -80,9 +80,6 @@ function cards() {
       });
     })
     .then(function () {
-      // slider(".slider__wrapper");
-      // filters(".box", ".load-more__btn", ".hide__btn", ".filter-wrapper");
-      // loadBTN(".top-more", ".load-more__btn", ".hide__btn");
       active();
     });
 }

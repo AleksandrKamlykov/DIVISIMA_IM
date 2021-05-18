@@ -8,7 +8,6 @@ function loadBTN(topMore, loadMoreBtn, hideBtn) {
   btnMore.addEventListener("click", () => {
     productsMore.forEach((elem) => {
       elem.style.display = "block"; // добавляем элементы
-      /// elem.classList.remove('.top-more')
     });
     btnMore.style.display = "none"; // убираем кнопку
     btnHide.style.display = "block";
